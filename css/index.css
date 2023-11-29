@@ -1,0 +1,27 @@
+body{
+    background-color: #fff;
+    
+}
+main div{
+    margin: 1em;
+
+}
+
+.contenedor-imagenes{
+    columns: 5 320px;
+    column-gap: 0.5em;
+    
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    
+}
+
+
+
+
+
+

@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
-    background-color: rgba(240, 237, 235, 0.685);
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: rgba(202, 209, 203, 0.685)
 }
 
 .contenedor-header{
@@ -12,34 +17,35 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color:#f3efef;
-    margin-bottom: 40px;
+    background-color:rgb(165, 162, 161);
+    
 }
 
-.contenedor-header div{
+.contenedor-header-div{
     display: flex;
     align-items: center;
 }
 
 .header-navegacion a{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.contenedor-header-div-nombre-pajina{
+    font-size: 31px;
     
 }
 
-.contenedor-header div h2{
-    font-size: 31px;
-}
-
-.contenedor-header div img{
+.contenedor-header-div-logo{
     height: 50px;
+    width: 50px;
     margin: 0px 10px 0px 10px; 
 } 
 
 .header-navegacion a:hover{
-    color: rgb(255, 255, 255)
+    color: rgb(120, 118, 118)
 }
 
 
@@ -50,15 +56,17 @@
     .contenedor-header{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding: 10px 0px;
-
     }
+
     .header-navegacion a{
         margin: 5px;
         font-size: 18px;
     }
 
-    .contenedor-header div img{
+    .logo{
         margin: 0px 2px;
+        
     }
 }

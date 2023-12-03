@@ -4,6 +4,7 @@
     font-size: 30px;
     margin: 40px;
     text-align: center;
+    font-weight: 700;
 }
 
 .contenedor_presentacion_parafo{
@@ -11,6 +12,7 @@
     margin: 20px;
     font-size: 18px;
     text-align: center;
+    font-weight: 600;
 }
 
 .contenedor_principal_h2{

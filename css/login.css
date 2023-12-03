@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(202, 209, 203, 0.685)
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 100px;
+    border-radius: 10px;
+}
+
+form .titulo{
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 800px;
+}
+
+form label{
+    margin-bottom: 50px;
+}
+
+form label .fa-solid{
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(209, 33, 33);
+}
+
+form label input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0px 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+form label input ::placeholder{
+
+}
+
+form button{
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    background-color: rgb(209, 33, 33);
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+
+    
+}

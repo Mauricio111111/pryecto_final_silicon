@@ -28,20 +28,22 @@
         <div>
             <form action="">
             <h1 class="titulo">Registrarse</h1>
-            <label>
+
+            <label for="usuario">
                 <i class="fa-solid fa-user"></i>
-            <input type="text" id="Usuario" placeholder="Nombre">
+            <input type="text" id="usuario" placeholder="Nombre">
             </label>
-            <label>
+
+            <label for="password">
                 <i class="fa-solid fa-lock"></i>
-            <input type="password" id="contraseña" placeholder="Contraseña">
+            <input type="password" id="password" placeholder="Contraseña">
             </label>
         
-            <button id="boton">Registrarse</button>
+            <button type="button" onclick="login()" id="boton">Registrarse</button>
         </form>
         </div>
         
     </main>
-
+    <script src="../java-script/login.js"></script>
 </body>
 </html>

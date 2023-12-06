@@ -58,3 +58,20 @@ form button{
 
     
 }
+
+.contenedor-pie-pagina{
+    background-color: rgb(175, 173, 173);
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.contenedor-pie-pagina .fa-brands{
+    margin: 10px;
+    font-size: 30px;
+    
+}

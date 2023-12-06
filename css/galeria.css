@@ -11,7 +11,7 @@ main div{
 
 .contenedor-imagenes{
     columns: 5 320px;
-    column-gap: 0.5em;
+    column-gap: 0.9em;
     
 }
 
@@ -25,6 +25,7 @@ img{
 
 img:hover{
     opacity: 0.9;
+    
 }
 
 

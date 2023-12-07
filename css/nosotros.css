@@ -1,5 +1,13 @@
+.contenedor{
+    text-align: center;
+    align-items: center;
+}
 
-
+.contenedor p{
+    margin: 30px 70px 20px ;
+    font-size: 20;
+    font-weight: 500;
+}
 
 
 
@@ -23,7 +31,7 @@
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500;
     margin-bottom: 0;
 }
 

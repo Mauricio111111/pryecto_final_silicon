@@ -11,7 +11,7 @@ fetch("../inportar.json")
         
         
         let parrafo = document.createElement("p")
-        contenedorParafo.style.margin = "30px 70px 20px";
+        contenedorParafo.style.margin = "140px 70px 20px";
         contenedorParafo.appendChild(document.createTextNode(texto))
             
 

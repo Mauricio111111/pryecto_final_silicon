@@ -11,3 +11,5 @@ _Esta conpuesta por 4 paginas,
 Esta pagina esta creada con html, css, js.
 
 pagina: https://mauricio111111.github.io/pryecto_final_silicon/
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVNEr3lRQ=/?moveToViewport=-2539,-1036,7116,2016&embedId=313332689154" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
